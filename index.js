@@ -32,6 +32,7 @@ Component({
         handleClickMask () {
             if (!this.data.maskClosable) return;
             this.handleClickCancel();
+            consle.log("测试")
         },
 
         handleClickItem ({ currentTarget = {} }) {
